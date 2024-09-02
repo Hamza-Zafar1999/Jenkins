@@ -24,7 +24,7 @@ pipeline {
                 echo "Check the quality of the code"
             }
         }
-        stage('Deploy') {
+        stage('Deploy On Stage') {
             steps {
                 echo "Deploy the application to a testing environment specified by the environment variable: ${env.TESTING_ENVIRONMENT}"
             }
