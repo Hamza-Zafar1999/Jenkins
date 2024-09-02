@@ -1,5 +1,5 @@
 // Define environment variables
-env.DIRECTORY_PATH = '/path/to/code/directory'
+env.DIRECTORY_PATH = './'
 env.TESTING_ENVIRONMENT = 'Stage-environment'
 env.PRODUCTION_ENVIRONMENT = 'Production-Environment'
 
